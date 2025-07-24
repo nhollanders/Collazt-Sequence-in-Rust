@@ -51,6 +51,12 @@ fn main() {
     }
 
     println!("Finished Calculating Collatz Sequence with a total of {} numbers.\nHighest Number: {}", collatz_sez.len()-1, highest_number); // minus one to account for the starting number that gets added
+    
+    
+    println!("Press Enter to close...");
+
+    let mut wait = String::new();
+    let _ = stdin().read_line(&mut wait);
 }
 
 fn is_even(number: i64) -> bool {

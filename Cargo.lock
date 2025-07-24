@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "first_rust_project"
+name = "rust_collatz_seq"
 version = "0.1.0"
